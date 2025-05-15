@@ -15,9 +15,9 @@ This project is a simple FAQ chatbot built with Streamlit, spaCy, and scikit-lea
 1- Make sure the faq_data.json file is in the project directory with your FAQ question-answer pairs.
 
 2- Run the Streamlit app:
-
+``` cmd
 streamlit run app.py
-
+```
 ## Code Overview
 * FAQs.py — main Streamlit app script.
 
