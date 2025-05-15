@@ -16,7 +16,7 @@ This project is a simple FAQ chatbot built with Streamlit, spaCy, and scikit-lea
 
 2- Run the Streamlit app:
 ``` cmd
-streamlit run app.py
+streamlit run FAQs.py
 ```
 ## Code Overview
 * FAQs.py — main Streamlit app script.
@@ -30,12 +30,12 @@ streamlit run app.py
 ## FAQ Data Format
 The faq_data.json should be a JSON object with questions as keys and answers as values, for example:
 
-json
-Copy code
+```json
 {
   "How do I place an order?": "Browse the products, add items to your cart, then proceed to checkout to complete your order.",
   "Can I order without creating an account?": "No, creating an account helps us process orders and provide updates efficiently."
 }
+```
 ## Dependencies
 * Python 3.7+
 
